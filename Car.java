@@ -42,4 +42,8 @@ public class Car {
     public void setMileage(int mileage) {
         this.mileage = mileage;
     }
+
+    public String getInfo(){
+        return "The Vehicle Make is: " + make + ", The Vehicle Model is " + model + ", This vehicle only has " + mileage + " miles!";
+    }
 }
